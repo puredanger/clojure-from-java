@@ -61,6 +61,9 @@ jshell> e.getName();
 $5 ==> "abc"
 ```
 
+Here, the Event e is a Clojure record instance (could have been an anonymous reify too).
+The getTimestamp() and getName() methods are Clojure code. Java users don't know or care.
+
 ## License
 
 Copyright © 2019 Alex Miller
