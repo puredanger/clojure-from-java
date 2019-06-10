@@ -1,6 +1,6 @@
 # cfj
 
-An example of calling from Java to Clojure by defining a set of Java interfaces,
+An example of calling Clojure from Java by defining a set of Java interfaces,
 then using the Clojure Java API to start invoking Clojure code that implements
 those interfaces.
 
