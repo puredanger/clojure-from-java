@@ -38,7 +38,7 @@ serviceable here - note that you need to include the uberjar on the
 classpath (it has the project code + Clojure).
 
 First we import the Event interface (defined in Java) and the Support
-class, which uses the Clojure Java API to laod and run Clojure functions.
+class, which uses the Clojure Java API to load and run Clojure functions.
 Then we use Support.createEvent() to cause our Clojure code to be loaded,
 and exercise it with the Java API.
 
